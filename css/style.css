@@ -9644,14 +9644,14 @@ h6,
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 2px solid #7AB730;
+  border: 2px solid #f63f14;
   background: #FFFFFF;
-  color: #7AB730;
+  color: #f63f14;
   transition: .5s;
 }
 
 .service-item:hover i {
-  background: #7AB730;
+  background: #f63f14;
   color: #FFFFFF;
 }
 
@@ -9748,7 +9748,7 @@ h6,
 
 .testimonial-carousel .owl-dot.active {
   width: 40px;
-  background: #7AB730;
+  background: #f63f14;
 }
 
 .testimonial-carousel .owl-item.center .testimonial-text {
