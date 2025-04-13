@@ -9644,14 +9644,14 @@ h6,
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 2px solid #f63f14;
+  border: 2px solid #2c8ffa;
   background: #FFFFFF;
-  color: #f63f14;
+  color: #2c8ffa;
   transition: .5s;
 }
 
 .service-item:hover i {
-  background: #f63f14;
+  background: #2c8ffa;
   color: #FFFFFF;
 }
 
