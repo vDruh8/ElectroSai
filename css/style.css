@@ -7265,6 +7265,10 @@ button.bg-dark:focus {
   width: 75% !important;
 }
 
+.w-90 {
+  width: 90% !important;
+}
+
 .w-100 {
   width: 100% !important;
 }
@@ -7587,7 +7591,7 @@ button.bg-dark:focus {
 
 .pt-5,
 .py-5 {
-  padding-top: 3rem !important;
+  padding-top: 2rem !important;
 }
 
 .pr-5,
@@ -7597,7 +7601,7 @@ button.bg-dark:focus {
 
 .pb-5,
 .py-5 {
-  padding-bottom: 3rem !important;
+  padding-bottom: 1rem !important;
 }
 
 .pl-5,
@@ -9594,8 +9598,22 @@ h6,
 .page-header {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/molinos5.1.jpg), no-repeat center center;
   background-size: cover;
-  height: 600px;
-  
+  height: 400px;
+}
+
+/* Imagen para Servicios */
+.header-servicios {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/servicios.jpg);
+}
+
+/* Imagen para Sobre Nosotros */
+.header-proyectos {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/proyectos2.png);
+}
+
+/* Imagen para Contacto */
+.header-contacto {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/contacto.jpg);
 }
 
 .destination-item img {
@@ -9632,6 +9650,7 @@ h6,
 
 .service-item {
   transition: .5s;
+  min-height: 347px;
 }
 
 .service-item:hover {
@@ -9732,6 +9751,7 @@ h6,
 }
 
 .testimonial-carousel .owl-dots {
+  padding: 10px;
   margin-top: 5px;
   text-align: center;
 }
@@ -9745,6 +9765,19 @@ h6,
   background: #DDDDDD;
   transition: .5s;
 }
+
+.owl-nav-custom .btn {
+  top: 42%;
+  transform: translateY(-50%);
+  z-index: 10;
+  border: none;
+}
+
+.owl-nav-custom .btn:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #f63f14;
+}
+
 
 .testimonial-carousel .owl-dot.active {
   width: 40px;
